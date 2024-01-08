@@ -1,0 +1,34 @@
+Project "Eins" Developer Release 1 (007)
+Added a self-extract archive (only applies to builds released to the public).
+Added a custom loader (only applies to builds released to the public). It's written in such a way that it fits on a single sector.
+Added a configuration system. Right now you can only change the resolution (and both resolutions are hardcoded).
+
+Project "Eins" Build 006.1
+Made small changes to the interface (that you normally can't see) and added German (in the appropriately named "ABOS-DE.bat").
+
+Project "Eins" Build 005.1
+Currently working on the configuration system. Changed some unnecessary timeout commands to be pause commands (but they still have the >nul switch)
+
+Project "Eins" Build 004.2
+Had to recompile build 004 due to forgetting to re-enable the "Exit" function after the rewrite. Exiting now works again after not working in build 002.
+
+Project "Eins" Build 004.1
+Unified the "Exit" and "Restart" options into a single "Exit" option. However, I forgot to re-enable the function. This is fixed in the next compile of this build.
+
+Project "Eins" Build 003.1
+Added the ability to run the test application, and a help "utility".
+Speaking of the test application, it now clears the screen before displaying anything, and has an extra message.
+Made the code slim, now only 80 lines of code.
+The test application will now be used to test application support on "Eins".
+
+Project "Eins" Build 002.1 (Internal Developer Test #2)
+Added 2 options to the environment itself: Show version and Restart.
+Disabled exiting for a rewrite.
+Gave the project a codename.
+NOTE: This release comes with a sample application called "testapp".
+
+Project "Eins" Build 001.1 (Internal Developer Test #1)
+Just made this thing from scratch very quickly.
+Testing cmdmenusel. For some reason, when I launch the environment from Notepad++, cmdmenusel doesn't work.
+Has basic functionality for now. No dedicated installer.
+No SKUs yet. Only SKU present right now is Lite (it'll be replaced later)
